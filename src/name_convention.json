@@ -1,0 +1,57 @@
+[{
+        "file_type": "las",
+        "metadata": {
+            "COMP": "Operator",
+            "DATE": "Recorded Date",
+            "FLD": "Field",
+            "LOC": "Location",
+            "CTRY": "Country",
+            "STAT": "State",
+            "WELL": "Well Name",
+            "UWI": "Unique Well ID",
+            "SRVC": "Service Company",
+            "API": "API Number",
+            "SON": "Service Order",
+            "LIC": "License Number",
+            "LATI": "Latitude",
+            "LONG": "Longitude",
+            "STRT": "Data Start Depth",
+            "STOP": "Data Stop Depth",
+            "STOP - STRT": "Data Interval"
+        }
+    }, {
+        "file_type": "dlis",
+        "metadata": {
+            "CN": "Operator",
+            "TLAB": "Recorded Date",
+            "FN": "Field",
+            "FL": "Location",
+            "STAT": "Country",
+            "WN": "Well Name",
+            "UWI": "Unique Well ID",
+            "SON": "Service Order",
+            "LATI": "Latitude",
+            "LONG": "Longitude",
+            "TLI": "Data Start Depth",
+            "BLI": "Data Stop Depth",
+            "SECT": "Section",
+            "MHD": "Maximum Hole Deviation",
+            "EGL": "Elevation of Ground Level",
+            "EDF": "Elevation of Derrick Floor",
+            "PDAT": "Permanent Datum",
+            "EPD": "Elevation of Permanent Datum",
+            "LMF": "Log Measured From",
+            "APD": "Above Permanent Datum",
+            "DMF": "Drilling Measured From",
+            "TDD": "Well Depth",
+            "BS": "Hole size",
+            "DFT": "Drilling Fluid Type",
+            "DFD": "Drilling Fluid Density",
+            "MRT": "Maximum Recorded Temperature",
+            "ENGI": "Acquisition Engineer",
+            "WITN": "Operator Representative",
+            "BLI - TLI": "Data Interval"
+        }
+    }
+
+]

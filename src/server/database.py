@@ -34,6 +34,7 @@ async def retrieve_files_catalog():
 
 # Add a new file catalog into to the database
 async def add_file_catalog(file_catalog_data: dict) -> dict:
+    print(file_catalog_data, flush=True)
     file_catalog = await file_catalog_collection.insert_one(file_catalog_data)
     new_file_catalog = await file_catalog_collection.find_one({"_id": file_catalog.inserted_id})
     return file_catalog_helper(new_file_catalog)
@@ -80,5 +81,5 @@ async def delete_file_catalog(id: str):
 async def delete_file_catalog_by_file_name(file_name: str):
     file_catalog = await file_catalog_collection.find_one({"file_name": file_name})
     if file_catalog:
-        await file_catalog_collection.delete_one({"file_name": ObjectId(id)})
+        await file_catalog_collection.delete_one({"_id": file_catalog['_id']})
         return True
